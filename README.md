@@ -9,7 +9,7 @@ This project aims to provide a scalable and real-time solution for analyzing Ama
 - **Streaming Pipeline Setup:** Developing a producer application to stream preprocessed data in real-time and creating consumer applications to subscribe to this data stream.
 - **Frequent Itemset Mining:** Implementing the Apriori and PCY (Park-Chen-Yu) algorithms for discovering frequent itemsets in a streaming context, along with innovative analysis in the third consumer application.
 - **Database Integration:** Utilizing a non-relational database such as MongoDB to store the results of the frequent itemset mining for further analysis and retrieval.
-- **Bonus Bash Script:** Enhancing project execution with a Bash script to automate the setup of Kafka components, including Kafka Connect and Zookeeper, as well as running the producer and consumer applications.
+- **Bash Script:** Enhancing project execution with a Bash script to automate the setup of Kafka components, including Kafka Connect and Zookeeper, as well as running the producer and consumer applications.
 
 ## Required Technologies
 
