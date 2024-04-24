@@ -49,11 +49,17 @@ https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/
 
 After preprocessing the data, the `producer.py` script is utilized to stream the preprocessed data into Kafka, facilitating real-time data ingestion. Following this, the `consumer_apriori.py` script subscribes to the Kafka topic and implements the Apriori algorithm to identify frequent itemsets in the transaction data. 
 
+![Apriori](https://github.com/tahabintariq/i222014_i221996_i221913_BDA-Assignment-3/assets/110919745/3dc77187-988e-4376-8b7c-246b470c8806)
+
 Similarly, the `consumer_pcy.py` script processes Kafka messages, employing the PCY algorithm to efficiently identify frequent pairs within the streaming data.
 
 The `consumerfinal_pcy.py` script refines the PCY algorithm implementation to identify frequent combinations within the streaming data. It utilizes advanced hashing and counting techniques to efficiently process large transaction datasets, providing valuable insights into complex purchase patterns and market trends.
 
+![PCY](https://github.com/tahabintariq/i222014_i221996_i221913_BDA-Assignment-3/assets/110919745/d6f6eb14-8477-43e0-9bb1-6778e06fae30)
+
 Moreover, the `consumer_realtimepriceoptimizer.py` script integrates a dynamic pricing model, leveraging Kafka messages to update product demand and brand pricing information. It recommends optimal prices in real-time based on demand fluctuations and brand preferences, enabling responsive pricing strategies for maximizing revenue and customer satisfaction.
+
+![RealTimePriceOptimizer](https://github.com/tahabintariq/i222014_i221996_i221913_BDA-Assignment-3/assets/110919745/eaa34b10-dd9e-4de4-9109-13ab249e7fdb)
 
 
 
