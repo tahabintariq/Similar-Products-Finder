@@ -62,5 +62,24 @@ Moreover, the `consumer_realtimepriceoptimizer.py` script integrates a dynamic p
 ![RealTimePriceOptimizer](https://github.com/tahabintariq/i222014_i221996_i221913_BDA-Assignment-3/assets/110919745/eaa34b10-dd9e-4de4-9109-13ab249e7fdb)
 
 
+## Kafka Clustering
+
+In addition to local Kafka deployment, the project leverages Kafka clustering through Confluent Cloud, ensuring scalability and fault tolerance for streaming data processing. By distributing data across multiple Kafka brokers hosted on Confluent Cloud, the system enhances reliability and performance, enabling seamless handling of high-volume data streams and supporting real-time analytics at scale.
+
+![1](https://github.com/tahabintariq/i222014_i221996_i221913_BDA-Assignment-3/assets/110919745/da682420-5b8c-4d19-830f-78028f171074)
+
+![2](https://github.com/tahabintariq/i222014_i221996_i221913_BDA-Assignment-3/assets/110919745/e92d9c16-3220-4ab0-9661-c73db73cdd85)
+
+## Conclusion
+
+This project provides a comprehensive solution for analyzing Amazon metadata in a streaming environment, showcasing proficiency in data preprocessing, streaming pipeline setup, frequent itemset mining, database integration, and automation with a bonus Bash script. It serves as an educational resource for students studying big data processing and streaming analytics, offering hands-on experience with real-world datasets and techniques.
+
+## Team Members
+- Hasnain Raza (22I-1996)
+- Haider Akbar (22I-1913)
+- Taha Bin Tariq (22I-2014)
+
+
+
 
 
